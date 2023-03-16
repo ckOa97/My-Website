@@ -1,0 +1,242 @@
+
+/***********************************************************************GLOBAL*************************************************************/
+
+
+body {
+
+    margin: 0;
+    padding: 0;
+    color: #757575;
+    font-size: calc(13px + (16 - 13) * ((100vw - 320px) / (1600 - 320)));
+
+}
+
+.h6 {
+
+    font-size: 1.1em;
+
+}
+
+@media screen and (min-width: 1600px) {
+
+    body {
+
+        font-size: 16px;
+
+    }
+    
+}
+
+@media screen and (max-width: 320px) {
+
+    body {
+
+        font-size: 13px;
+
+    }
+    
+}
+
+
+/*************************************************************************NAV***************************************************************/
+
+
+.my-website {
+
+    color: #504e51;
+    padding: 0;
+
+}
+
+
+.nav-list {
+
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin: 0;
+
+}
+
+.nav-list > li > a:link {
+
+    text-decoration: none;
+    color: #757575;
+
+}
+
+.nav-list > li > a:visited {
+
+    text-decoration: none;
+    color: #757575;
+    
+}
+
+.nav-list > li > a:hover {
+
+    text-decoration: none;
+    color: #0c0c0c;
+        
+        
+}
+
+
+
+/******************************************************************HERO-SECTION***********************************************************/
+
+
+.hero-section > div > div {
+
+    width: 100%;
+    height: 500px;
+    background-image: url('../imgs/hero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+.hero-section > div > div > div > div > p {
+
+    background-color: #2cc489;
+    font-size: 1.4em;
+
+}
+
+
+
+/**********************************************************INTRO-SECTIN********************************************************************/
+
+
+.intro-section {
+
+    line-height: 28px;
+
+}
+
+.h5 {
+
+    color: #020202 ;
+
+}
+
+.intro-section-paragraf {
+
+    font-size: 1em;
+
+}
+
+
+
+/**********************************************************RECENT-WORK*********************************************************************/
+
+
+.recent-work-heading > div > h1 {
+
+    color: #4c4c4c;
+    border-bottom: 1px solid #e0e0e0;    
+
+}
+
+.recent-work > div > p {
+
+    font-size: 1em;
+
+}
+
+.recent-work > div > h2 {
+
+    color: #020202;
+    margin-bottom: 5px;
+    font-weight: bold;
+
+}
+
+
+
+/**********************************************************FROM-THE-BLOG*********************************************************************/
+
+
+.from-the-blog-heading > div > h1 {
+
+    color: #4c4c4c;
+    border-bottom: 1px solid #e0e0e0;
+
+}
+
+.from-the-blog > div > p {
+
+    font-size: 1em;
+
+}
+
+.from-the-blog > div > p:first-of-type {
+
+    color: #313131;
+
+}
+
+.from-the-blog > div > p:last-of-type {
+
+    line-height: 28px;
+
+}
+
+.from-the-blog > div > h2 {
+
+    color: #020202;
+    margin-bottom: 5px;
+    font-weight: bold;
+
+}
+
+
+/**********************************************************FUTER-SECTION*******************************************************************/
+
+.footer {
+
+    background-color: #222222;
+
+}
+
+.footer-1 > h2, .footer-2 > h2 {
+
+    color: #fff;
+    margin-bottom: 0;
+    font-weight: bold;
+
+}
+
+.footer-2 > ul > li {
+
+    color: #b3b3b3;
+    border-bottom: 1px solid #323232;
+    padding: 2px 0;
+
+}
+
+.footer-2 > ul > li:first-of-type {
+
+    border-top:  1px solid #323232;
+
+}
+
+.footer-2:last-child > ul > li {
+
+    padding: 0;
+
+}
+
+.footer-3 {
+
+    background-color: #111111;
+
+}
+
+.footer-3 > p {
+
+    margin: 0;
+    color: #858585;
+
+}
